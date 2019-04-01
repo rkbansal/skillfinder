@@ -14,16 +14,17 @@ export default class ModalComp extends React.Component {
         <Modal
           // title="Sign up or Login into your account"
           visible={this.props.visible}
+          centered
           onOk={this.props.handleOk}
           onCancel={this.props.handleCancel}
-          width={1370}
+          width={734}
         >
         <div className="modal-body">
-          <div className="left">
+          {/* <div className="left">
             <div className="left-text">
             Voice Trumps Every-thing
             </div>
-          </div>
+          </div> */}
           <div className="right">
             <div className="header">Sign up or Login into your account</div>
             <div className="body">

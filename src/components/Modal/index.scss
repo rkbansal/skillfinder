@@ -5,8 +5,18 @@
   margin-left: -24px;
 }
 
+.ant-modal-content {
+  border-radius: 50px;
+}
+
+.ant-modal-close {
+  top: 20px;
+  right: 20px;
+}
+
 .ant-modal-footer {
   height: 820px;
+  border-top: none;
   button {
     visibility: hidden;
   }
@@ -31,7 +41,7 @@
   }
   .right {
     float: left;
-    width: 60%;
+    width: 100%;
     text-align: center;
     margin-top: 84px;
     .header {
