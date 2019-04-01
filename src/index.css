@@ -12,3 +12,277 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "GothamBoldItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamBook";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamBookItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-BookItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamExtraLight";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-ExtraLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamExtraLightItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-ExtraLightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamLight";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamLightItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamMediumItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamThin";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamThinItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-ThinItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamUltra";
+  src: url("../src/assets/Fnts/Gotham-Ultra.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamUltraItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Gotham-UltraItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowBlack";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowBlackItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-BlackItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowBook";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowBookItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-BookItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowLight";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowLightItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowMedium";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowMediumItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowThin";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowThinItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-ThinItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowUltra";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-Ultra.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowUltraItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-UltraItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowXlight";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-XLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GothamNarrowXlightItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/GothamNarrow-XLightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeueBoldItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Maison-Neue-Bold-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeueBold";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Maison-Neue-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeueDemiItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Maison-Neue-Demi-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeueDemi";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Maison-Neue-Demi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeueLightItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Maison-Neue-Light-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeueLight";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Maison-Neue-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeueMediumItalic";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Maison-Neue-Medium-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeueMedium";
+  font-weight: normal;
+  src: url("../src/assets/Fnts/Maison-Neue-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'GothamBlack';
+  src: url("../src/assets/Fnts/GOTHAM-BLACK.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamBlackItalic';
+  src: url("../src/assets/Fnts/GOTHAM-BLACKITALIC.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamBold';
+  src: url("../src/assets/Fnts/GOTHAM-BOLD.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamBoldItalicTTFf';
+  src: url("../src/assets/Fnts/GOTHAM-BOLDITALIC.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamLightTTF';
+  src: url("../src/assets/Fnts/GOTHAM-LIGHT.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamMediumTTF';
+  src: url("../src/assets/Fnts/GOTHAM-MEDIUM.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamMediumItalicTTF';
+  src: url("../src/assets/Fnts/GOTHAM-MEDIUMITALIC.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamThinTTF';
+  src: url("../src/assets/Fnts/GOTHAM-THIN.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamThinItalicTTF';
+  src: url("../src/assets/Fnts/GOTHAM-THINITALIC.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamUltraTTF';
+  src: url("../src/assets/Fnts/GOTHAM-ULTRA.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamUltraItalicTTF';
+  src: url("../src/assets/Fnts/GOTHAM-ULTRAITALIC.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamXlight';
+  src: url("../src/assets/Fnts/GOTHAM-XLIGHT.TTF") format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamXlightItalic';
+  src: url("../src/assets/Fnts/GOTHAM-XLIGHTITALIC.TTF") format('truetype');
+}

@@ -1,0 +1,41 @@
+.middle-left {
+  float: left;
+  width: calc(33% - 30px);
+  padding-left: 30px;
+  >.heading {
+    color: rgb(0, 102, 255);
+    font-size: 34px;
+    text-align: left;
+    font-family: "GothamBlack";
+  }
+  >div{
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+    >.btn-download-sdk {
+      margin-left: 0px;
+      background-color: rgb(0, 102, 255);
+      border-radius: 50px;
+      font-size: 16px;
+      height: 60px;
+      float: left;
+      // font-weight: 800;
+      width: 325px;
+      color: rgb(255, 255, 255);
+      font-family: "GothamMedium";
+    }
+  }
+  >.features {
+    float: left;
+    width: 100%;
+    margin-top: 75px;
+    >li {
+      color : rgb(0, 102, 255);
+      font-size: 24px;
+      text-align: left;
+      margin-top: 25px;
+      max-width: 500px;
+      font-family: "GothamBook";
+    }
+  }
+}
