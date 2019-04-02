@@ -1,0 +1,18 @@
+.sdk-left-panel {
+  float: left;
+  width: 30%;
+  >.tree-base{
+    background-color: rgb(236, 242, 255);
+    float: left;
+    text-align: left;
+    margin-top: 140px;
+    margin-left: 140px;
+    padding: 35px;
+    width: 368px;
+    min-height: 1380px;
+    .heading {
+      font-family: "GothamUltra";
+      font-size: 20px;
+    }
+  }
+}

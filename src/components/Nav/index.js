@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import ModalComp from "../Modal";
 import "./index.scss";
 export default function Nav(props) {
@@ -27,9 +28,13 @@ export default function Nav(props) {
     <div className="nav">
       <div className="left">SKILLFINDER</div>
       <div className="right">
-        {links.map((e, i)=>{
-          return <div key={i} onClick={(event)=>handleClick(event, e)}>{e}</div>
-        })}
+        <div>
+          <Link to="/sdk">
+            SDK
+          </Link>
+        </div>
+          <div onClick={(event)=>handleClick(event, "register")}>REGISTER YOUR SKILL</div>
+          <div onClick={(event)=>handleClick(event, "sLOGIN/SINGUPdk")}>LOGIN/SINGUP</div>
       </div>
       <ModalComp
         visible={loginVisible}

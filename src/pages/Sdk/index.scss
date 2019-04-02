@@ -1,0 +1,15 @@
+.sdk {
+  >.nav-heading {
+    // background-color: rgb(36, 146, 252);
+    // background-image: linear-gradient(rgb(36, 146, 252), rgb(255, 255, 255)); 
+    background: url('../../assets/images/download-header.png') no-repeat;
+    height: 154px;
+    float: left;
+    width: 100%;
+  }
+  >.sdk-middle {
+    float: left;
+    width: 100%;
+    min-height: 1700px;
+  }
+}
