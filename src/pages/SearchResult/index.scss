@@ -1,0 +1,16 @@
+.search-result {
+  >.nav-heading {
+    background: url('../../assets/images/banner-search.png') no-repeat;
+    height: 488px;
+    float: left;
+    width: 100%;
+    >.title {
+      float: left;
+      width: 100%;
+      font-family: "GothamBlack";
+      font-size: 70px;
+      color: rgb(255, 255, 255);
+      margin-bottom: 10px;
+    }
+  }
+}
