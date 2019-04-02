@@ -26,15 +26,15 @@ export default function Nav(props) {
   const links = ["SDK", "REGISTER YOUR SKILL", "LOGIN/SINGUP"];
   return (
     <div className="nav">
-      <div className="left">SKILLFINDER</div>
+      <div className="left"><Link to="/">SKILLFINDER</Link></div>
       <div className="right">
-        <div>
+        <div className="nav-link">
           <Link to="/sdk">
             SDK
           </Link>
         </div>
-          <div onClick={(event)=>handleClick(event, "register")}>REGISTER YOUR SKILL</div>
-          <div onClick={(event)=>handleClick(event, "sLOGIN/SINGUPdk")}>LOGIN/SINGUP</div>
+          <div className="nav-link" onClick={(event)=>handleClick(event, "register")}>REGISTER YOUR SKILL</div>
+          <div className="nav-link" onClick={(event)=>handleClick(event, "sLOGIN/SINGUPdk")}>LOGIN/SINGUP</div>
       </div>
       <ModalComp
         visible={loginVisible}
