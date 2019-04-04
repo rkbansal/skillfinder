@@ -34,7 +34,7 @@ export default function Nav(props) {
           </Link>
         </div>
           <div className="nav-link" onClick={(event)=>handleClick(event, "register")}>REGISTER YOUR SKILL</div>
-          <div className="nav-link" onClick={(event)=>handleClick(event, "sLOGIN/SINGUPdk")}>LOGIN/SINGUP</div>
+          <div className="nav-link" onClick={(event)=>handleClick(event, "LOGIN/SINGUP")}>LOGIN/SINGUP</div>
       </div>
       <ModalComp
         visible={loginVisible}

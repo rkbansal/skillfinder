@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./index.scss";
-import { Tree } from "antd";
+import { Tree, Icon } from "antd";
 
 const { TreeNode } = Tree;
 // import { Treebeard } from "react-treebeard";
@@ -39,45 +39,45 @@ export default class TreeExample extends React.Component {
   render() {
     return (
       <div className="nav-tree">
-        <Tree showLine defaultExpandedKeys={["0-0-0", "1-0-0"]} onSelect={this.onSelect}>
+        <Tree showIcon showLine defaultExpandedKeys={["0-0-0", "1-0-0"]} defaultExpandAll={true} onSelect={this.onSelect}>
           <TreeNode title="Built Skills with Skills kit." key="0-0">
             <TreeNode title="parent 1-0" key="0-0-0">
-              <TreeNode title="leaf" key="0-0-0-0" />
-              <TreeNode title="leaf" key="0-0-0-1" />
-              <TreeNode title="leaf" key="0-0-0-2" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="0-0-0-0" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="0-0-0-1" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="0-0-0-2" />
             </TreeNode>
             <TreeNode title="parent 1-1" key="0-0-1">
-              <TreeNode title="leaf" key="0-0-1-0" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="0-0-1-0" />
             </TreeNode>
           </TreeNode>
           <TreeNode title="Quick Reference" key="1-0">
             <TreeNode title="parent 1-0" key="1-0-0">
-              <TreeNode title="leaf" key="1-0-0-0" />
-              <TreeNode title="leaf" key="1-0-0-1" />
-              <TreeNode title="leaf" key="1-0-0-2" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="1-0-0-0" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="1-0-0-1" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="1-0-0-2" />
             </TreeNode>
             <TreeNode title="parent 1-1" key="1-0-1">
-              <TreeNode title="leaf" key="1-0-1-0" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="1-0-1-0" />
             </TreeNode>
           </TreeNode>
           <TreeNode title="Tools and create and manage skills" key="2-0">
             <TreeNode title="parent 1-0" key="2-0-0">
-              <TreeNode title="leaf" key="2-0-0-0" />
-              <TreeNode title="leaf" key="2-0-0-1" />
-              <TreeNode title="leaf" key="2-0-0-2" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="2-0-0-0" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="2-0-0-1" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="2-0-0-2" />
             </TreeNode>
             <TreeNode title="parent 1-1" key="2-0-1">
-              <TreeNode title="leaf" key="2-0-1-0" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="2-0-1-0" />
             </TreeNode>
           </TreeNode>
           <TreeNode title="Build Skills with alexa Skills kit." key="3-0">
             <TreeNode title="parent 1-0" key="3-0-0">
-              <TreeNode title="leaf" key="3-0-0-0" />
-              <TreeNode title="leaf" key="3-0-0-1" />
-              <TreeNode title="leaf" key="3-0-0-2" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="3-0-0-0" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="3-0-0-1" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="3-0-0-2" />
             </TreeNode>
             <TreeNode title="parent 1-1" key="3-0-1">
-              <TreeNode title="leaf" key="3-0-1-0" />
+              <TreeNode switcherIcon={<Icon type="small-dash" />} title="leaf" key="3-0-1-0" />
             </TreeNode>
           </TreeNode>
         </Tree>

@@ -5,28 +5,28 @@ const data = [
   {
     title: "SPOTIFY",
     color: "rgb(51, 204, 102)",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et .",
     related: "Music, Sonos, Spotify, muzik, Disco Jack",
     icon: require("../../assets/images/spotifyLogo.png")
   },
   {
     title: "BOSE AUDIO",
     color: "rgb(0, 0, 0)",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et .",
     related: "Music, Sonos, Spotify, muzik, Disco Jack",
     icon: require("../../assets/images/spotifyLogo.png")
   },
   {
     title: "GANNA",
     color: "rgb(204, 51, 51)",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e.",
     related: "Music, Sonos, Spotify, muzik, Disco Jack",
     icon: require("../../assets/images/spotifyLogo.png")
   },
   {
     title: "AMAZON MUSIC",
     color: "rgb(51, 153, 204)",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et d.",
     related: "Music, Sonos, Spotify, muzik, Disco Jack",
     icon: require("../../assets/images/spotifyLogo.png")
   }

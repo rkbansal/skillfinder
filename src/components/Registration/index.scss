@@ -1,3 +1,28 @@
+@-webkit-keyframes sideSlide {
+  0% {
+    opacity: 0;
+    // margin-top: 100px
+    margin-left: 30px;
+  }
+  100% {
+    opacity: 1;
+    // margin-top: 50px
+    margin-left: 0px;
+  }
+}
+@keyframes sideSlide {
+  0% {
+    opacity: 0;
+    // margin-top: 100px
+    margin-left: 30px;
+  }
+  100% {
+    opacity: 1;
+    // margin-top: 50px
+    margin-left: 0px;
+  }
+}
+
 .registration {
   float: left;
   width: 67%;
@@ -62,5 +87,94 @@
         font-family: "GothamUltra";
       }
     }
+  }
+  animation-name: sideSlide;
+  -webkit-animation-name: sideSlide;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@media screen and (max-width: 1350px) {
+  .registration {
+    float: left;
+    width: 67%;
+    margin-top: 50px;
+    >.heading {
+      color: rgb(0, 102, 255);
+      font-size: 27px;
+      font-family: "GothamBlack";
+    }
+    >.form {
+      position: relative;
+      float: left;
+      width: 100%;
+      margin-top: 67px;
+      >.left {
+        float: left;
+        width: 50%;
+        >.register-input {
+          float: right;
+          margin-bottom: 33px;
+          border: solid 1px gray;
+          border-radius: 3px;
+          width: 280px;
+          height: 65px;
+          font-size: 22px;
+          text-indent: 20px;
+          font-family: "MaisonNeueMedium";
+        }
+      }
+      >.right {
+        float: left;
+        width: 50%;
+        >.register-input {
+          // width: 70%;
+          margin-bottom: 33px;
+          border: solid 1px gray;
+          border-radius: 3px;
+          width: 280px;
+          height: 65px;
+          font-size: 22px;
+          text-indent: 20px;
+          font-family: "MaisonNeueMedium";
+        }
+        >.textbox {
+          height: 160px;
+        }
+      }
+      >.div-register {
+        float: right;
+        width: 100%;
+        padding: 0px 80px;
+        margin-top: 55px;
+        >.btn-register {
+          float: right;
+          background-color: rgb(255, 255, 255);
+          color: rgb(0, 102, 255);
+          border: 1px solid rgb(0, 102, 255);
+          margin: auto;
+          border-radius: 50px;
+          font-size: 16px;
+          height: 60px;
+          // width: 325px;
+          width: 100%;
+          font-family: "GothamUltra";
+        }
+      }
+    }
+    animation-name: sideSlide;
+    -webkit-animation-name: sideSlide;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
   }
 }
