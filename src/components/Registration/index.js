@@ -1,20 +1,74 @@
 import React from "react";
+import classNames from 'classnames';
+import TextField from '@material-ui/core/TextField';
+import { withStyles } from '@material-ui/core/styles';
+import purple from '@material-ui/core/colors/purple';
 import "./index.scss";
 
-export default function Registarion(){
+const styles = theme => ({
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
+  },
+  textField: {
+    marginLeft: theme.spacing.unit,
+    marginRight: theme.spacing.unit,
+  },
+  margin: {
+    margin: theme.spacing.unit,
+  },
+});
+
+function Registarion(props){
+  const { classes } = props;
   return(
     <div className="registration">
       <div className="heading">Register your Skill with our Database Community</div>
       <div className="form">
         <div className="left">
-          <input className="register-input" type="text" placeholder="Product Name"/>
-          <input className="register-input" type="text" placeholder="Voice Platform"/>
-          <input className="register-input" type="text" placeholder="Category"/>
-          <input className="register-input" type="text" placeholder="Website / Download Link"/>
+        <TextField
+          id="product-name"
+          label="Product Name"
+          className={classNames(classes.margin, "register-input")}
+          variant="outlined"
+        />
+        <TextField
+          id="voice-platform"
+          label="Voice Platform"
+          className={classNames(classes.margin, "register-input")}
+          variant="outlined"
+        />
+        <TextField
+          id="category"
+          label="Category"
+          className={classNames(classes.margin, "register-input")}
+          variant="outlined"
+        />
+        <TextField
+          id="website-download-link"
+          label="Website / Download Link"
+          className={classNames(classes.margin, "register-input")}
+          variant="outlined"
+        />
         </div>
         <div className="right">
-          <textarea className="register-input textbox" type="text" placeholder="Short 140 character description"></textarea>
-          <input className="register-input" type="text" placeholder="Search Keywords"/>
+          <TextField
+            id="outlined-multiline-static"
+            label="Multiline"
+            multiline
+            rows="6"
+            className={classNames(classes.margin, "register-input", "textbox")}
+            // margin="normal"
+            variant="outlined"
+          />
+          <TextField
+            id="search-keywords"
+            label="Search Keywords"
+            type="search"
+            className={"register-input"}
+            margin="normal"
+            variant="outlined"
+          />
         </div>
         <div className="div-register">
           <button className="btn-register">REGISTER YOUR SKILL</button>
@@ -22,4 +76,6 @@ export default function Registarion(){
       </div>
     </div>
   );
-}
+};
+
+export default withStyles(styles)(Registarion);

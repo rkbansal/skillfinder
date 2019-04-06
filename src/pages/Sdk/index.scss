@@ -1,3 +1,28 @@
+@-webkit-keyframes pageOpacity {
+  0% {
+    opacity: 0;
+    // margin-top: 100px
+    // margin-left: 30px;
+  }
+  100% {
+    opacity: 1;
+    // margin-top: 50px
+    // margin-left: 0px;
+  }
+}
+@keyframes pageOpacity {
+  0% {
+    opacity: 0;
+    // margin-top: 100px
+    // margin-left: 30px;
+  }
+  100% {
+    opacity: 1;
+    // margin-top: 50px
+    // margin-left: 0px;
+  }
+}
+
 .sdk {
   >.nav-heading {
     // background-color: rgb(36, 146, 252);
@@ -12,4 +37,13 @@
     width: 100%;
     min-height: 1700px;
   }
+  animation-name: pageOpacity;
+  -webkit-animation-name: pageOpacity;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
 }
