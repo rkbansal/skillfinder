@@ -1,6 +1,6 @@
 .search-bar {
   width: 1135px;
-  height: 74px;
+  height: 65px;
   font-size: 30px;
   border: none;
   text-indent: 136px;
@@ -14,7 +14,6 @@
   background-image: url(../../assets/icons/search.png);
   font-family: "GothamMedium";
   color: rgb(51, 51, 51);
-  font-size: 48px;
   &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: rgb(51, 51, 51);
   }
@@ -26,5 +25,14 @@
   }
   &:-moz-placeholder { /* Firefox 18- */
     color: rgb(51, 51, 51);
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .search-bar {
+    width: calc(100% - 150px);
+    font-size: 22px;
+    background-size: 22px 22px;
+    height: 60px;
   }
 }

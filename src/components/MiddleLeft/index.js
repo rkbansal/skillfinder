@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
 import "./index.scss";
 
 export default function MiddleLeft(){
@@ -8,19 +9,21 @@ export default function MiddleLeft(){
     "Feature Benefit #3 lorem ipsum dolor sit amet, consectetur adipiscing left"
   ];
   return(
-    <div className="middle-left">
-      <div className="heading">
-        Add our SDK to your code and
-        get valuable analytics.
+    <ScrollAnimation animateIn="fadeInUp" duration={2} animateOnce={true}>
+      <div className="middle-left">
+        <div className="heading">
+          Add our SDK to your code and
+          get valuable analytics.
+        </div>
+        <div>
+          <button className="btn-download-sdk">Download SkillFinder SDK</button>
+        </div>
+        <ul className="features">
+          {list.map((e, i)=>{
+            return <li key={i}>{e}</li>
+          })}
+        </ul>
       </div>
-      <div>
-        <button className="btn-download-sdk">Download SkillFinder SDK</button>
-      </div>
-      <ul className="features">
-        {list.map((e, i)=>{
-          return <li key={i}>{e}</li>
-        })}
-      </ul>
-    </div>
+      </ScrollAnimation>
   );
 }

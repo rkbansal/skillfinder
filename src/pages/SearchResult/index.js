@@ -7,7 +7,7 @@ import "./index.scss";
 function SearchResult() {
   return(
     <div className="search-result">
-      <div className="nav-heading">
+      <div className="nav-heading animated fadeInDown delay-2s">
         <Nav />
         <div className="title">
           Search Results

@@ -9,7 +9,7 @@ function SdkRightPanel() {
   ];
   return(
     <div className="sdk-right-panel">
-      <div className="left">
+      <div className="left animated fadeInUp delay-2s">
         <div className="header">Get the Skillfinder SDK Kit</div>
         <div className="info">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -28,7 +28,12 @@ function SdkRightPanel() {
             <div className="btn-image"></div>
           </div>
         </div>
-        <div className="third">
+      </div>
+      <div className="right animated zoomIn delay-2s">
+        <div className="image-area">
+        </div>
+      </div>
+      <div className="third animated zoomInUp delay-10s">
           <div className="documentation">
             <div className="header">
               Resources and Documentation
@@ -44,11 +49,6 @@ function SdkRightPanel() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="right">
-        <div className="image-area">
-        </div>
-      </div>
     </div>
   )
 }

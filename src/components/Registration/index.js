@@ -2,7 +2,7 @@ import React from "react";
 import classNames from 'classnames';
 import TextField from '@material-ui/core/TextField';
 import { withStyles } from '@material-ui/core/styles';
-import purple from '@material-ui/core/colors/purple';
+import ScrollAnimation from 'react-animate-on-scroll';
 import "./index.scss";
 
 const styles = theme => ({
@@ -22,6 +22,7 @@ const styles = theme => ({
 function Registarion(props){
   const { classes } = props;
   return(
+    <ScrollAnimation animateIn="fadeInRight" duration={1} animateOnce={true}>
     <div className="registration">
       <div className="heading">Register your Skill with our Database Community</div>
       <div className="form">
@@ -75,6 +76,7 @@ function Registarion(props){
         </div>
       </div>
     </div>
+    </ScrollAnimation>
   );
 };
 

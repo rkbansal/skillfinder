@@ -34,11 +34,11 @@ const data = [
 
 function Result(){
   return(
-    <div className="search-results-parent">
+    <div className="search-results-parent animated fadeIn delay-2s">
       <div className="search-results">
         {data.map((e, i) => {
           return(
-          <div key={i} className="search-result-item">
+          <div key={i} className="search-result-item animated fadeIn delay-2s">
             <div className="logo">
               <img className="img" src={e.icon} />
             </div>

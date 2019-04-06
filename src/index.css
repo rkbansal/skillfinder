@@ -13,6 +13,9 @@ code {
     monospace;
 }
 
+.link {
+  cursor: pointer; 
+}
 @font-face {
   font-family: "GothamBoldItalic";
   font-weight: normal;

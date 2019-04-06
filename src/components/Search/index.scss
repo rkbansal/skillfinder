@@ -1,6 +1,7 @@
 .search-panel{
   float: left;
-  width: 100%;
+  width: calc(100% - 20px);
+  margin: 0px 10px;
   margin-top: 56px;
   >.search-bar {
     width: 1135px;
@@ -58,8 +59,9 @@
 @media screen and (max-width: 1350px) { 
   .search-panel{
     float: left;
-    width: 100%;
     margin-top: 56px;
+    width: calc(100% - 20px);
+    margin: 0px 10px;
     >.search-bar {
       width: 800px;
       height: 74px;

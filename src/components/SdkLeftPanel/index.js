@@ -10,7 +10,7 @@ function SdkLeftPanel(){
       "Alexa Skills Kit"
     ];
   return (
-      <div className="sdk-left-panel">
+      <div className="sdk-left-panel animated fadeInLeft delay-2s">
         <div className="tree-base">
           <div className="heading">
             SkillFinder Skills Kit

@@ -1,4 +1,21 @@
 
+@-webkit-keyframes pageOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes pageOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .search-result {
   >.nav-heading {
     background: url('../../assets/images/banner-search.png') no-repeat;
@@ -9,9 +26,28 @@
       float: left;
       width: 100%;
       font-family: "GothamBlack";
-      font-size: 70px;
+      font-size: 60px;
       color: rgb(255, 255, 255);
       margin-bottom: 10px;
     }
   }
+
+  @media screen and (max-width: 1350px) {
+    >.nav-heading{
+      height: 300px;
+      >.title{
+        font-size: 57px;
+      }
+    }
+  }
+
+  animation-name: pageOpacity;
+  -webkit-animation-name: pageOpacity;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
 }
