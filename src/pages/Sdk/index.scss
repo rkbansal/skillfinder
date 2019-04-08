@@ -48,3 +48,12 @@
   animation-fill-mode: forwards;
   animation-play-state: running;
 }
+
+@media screen and (max-width: 850px) {
+  .sdk {
+    >.nav-heading {
+      background-size: cover;
+      height: auto;
+    }
+  }
+}

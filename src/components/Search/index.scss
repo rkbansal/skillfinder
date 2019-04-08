@@ -59,9 +59,9 @@
 @media screen and (max-width: 1350px) { 
   .search-panel{
     float: left;
-    margin-top: 56px;
     width: calc(100% - 20px);
     margin: 0px 10px;
+    margin-top: 56px;
     >.search-bar {
       width: 800px;
       height: 74px;
@@ -110,6 +110,51 @@
           color: rgb(67, 67, 67); 
           border-bottom: solid 1px rgb(230, 230, 230);
           font-family: "GothamLight";
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .search-panel {
+    margin-top: 30px;
+    >.search-bar {
+      width: 100%;
+      text-indent: 42px;
+      font-size: 20px;
+      height: 55px;
+      background-position-x: 15px;
+      background-size: 15px 15px;
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: rgb(0, 102, 255);
+        font-size: 20px;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: rgb(0, 102, 255);
+        font-size: 20px;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: rgb(0, 102, 255);
+        font-size: 20px;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: rgb(0, 102, 255);
+        font-size: 20px;
+      }
+    }
+    >.recent-search {
+      >.recent-item {
+        width: 100%;
+        font-size: 20px;
+        height: 55px;
+        line-height: 55px;
+        >.text {
+          margin-left: 42px;
+          margin-right: 42px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
       }
     }

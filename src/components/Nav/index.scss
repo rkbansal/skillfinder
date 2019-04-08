@@ -112,3 +112,28 @@
     }
   }
 }
+
+@media screen and (max-width: 850px) {
+  .nav {
+    float: left;
+    width: 100%;
+    height: auto;
+    >div {
+      margin-left: 0px;
+      &.left {
+        float: left;
+        width: 100%;
+      }
+      &.right {
+        float: left;
+        width: 100%;
+        >.nav-link {
+          float: left;
+          width: 100%;
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}

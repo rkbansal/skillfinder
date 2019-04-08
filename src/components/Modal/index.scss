@@ -159,3 +159,57 @@
     }
   }
 }
+
+@media screen and (max-width: 850px) {
+  .modal-body {
+    padding-left: 5%;
+    .right {
+      .body {
+        margin-top: 25px;
+        float: left;
+        width: 100%;
+        >.input{
+          >input{
+            width: auto;
+          }
+          >.email-input {
+            width: 100%;
+          }
+          >.password-input {
+            width: 100%;
+          }
+        }
+        >.password {
+          width: 100%;
+          float: left;
+        }
+        >.buttons {
+          >.button-flow{
+            width: 100%;
+            float: left;
+            >.register{
+              float: left;
+              width: 100%;
+              margin-bottom: 10px;
+            }
+            >.login {
+              float: left;
+              width: 100%;
+            }
+          }
+        }
+        >.oauth-login {
+          >.withAmazon {
+            float: left;
+            width: 100%;
+            margin-top: 16px;
+          }
+          >.withGoogle {
+            float: left;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

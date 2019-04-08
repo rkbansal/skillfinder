@@ -146,3 +146,16 @@
     animation-play-state: running;
   }
 }
+
+@media screen and (max-width: 850px) {
+  .middle-left {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    >.features {
+      >li {
+        font-size: 18px;
+      }
+    }
+  }
+}

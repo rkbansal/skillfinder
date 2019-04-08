@@ -41,6 +41,14 @@
     }
   }
 
+  @media screen and (max-width: 850px) {
+    >.nav-heading{
+      height: auto;
+      >.title{
+        font-size: 40px;
+      }
+    }
+  }
   animation-name: pageOpacity;
   -webkit-animation-name: pageOpacity;
   animation-duration: 0.5s;

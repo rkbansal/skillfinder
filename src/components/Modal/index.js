@@ -29,15 +29,15 @@ export default class ModalComp extends React.Component {
             <div className="header">Sign up or Login into your account</div>
             <div className="body">
               <div className="input">
-                <div className="label">
+                {/* <div className="label">
                   <div>E-MAIL</div>
-                </div>
+                </div> */}
                 <input className="email-input" placeholder="email id"/>
               </div>
               <div className="input password">
-                <div className="label">
+                {/* <div className="label">
                   <div>Password</div>
-                </div>
+                </div> */}
                 <input className="password-input" placeholder="password"/>
               </div>
               <div className="buttons">

@@ -3,3 +3,10 @@
   float: left;
   width: 100%;
 }
+
+@media screen and (max-width: 850px) {
+  .middle {
+    height: auto;
+    margin-bottom: 50px;
+  }
+}
