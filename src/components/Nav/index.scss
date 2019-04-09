@@ -1,3 +1,7 @@
+.bar_icon {
+  display: none;
+}
+
 .nav {
   .nav-link {
     cursor: pointer;
@@ -114,6 +118,14 @@
 }
 
 @media screen and (max-width: 850px) {
+  .hide {
+    display: none !important;
+  }
+
+  .show {
+    display: block;
+  }
+
   .nav {
     float: left;
     width: 100%;
@@ -123,6 +135,19 @@
       &.left {
         float: left;
         width: 100%;
+        >.logo_link {
+          float: left;
+          width: 50%;
+        }
+        >.left_right{
+          float: left;
+          width: 50%;
+          >.bar_icon {
+            display: block;
+            width: 50%;
+            float: right;
+          }
+        }
       }
       &.right {
         float: left;

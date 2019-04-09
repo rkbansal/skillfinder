@@ -16,6 +16,10 @@ code {
 .link {
   cursor: pointer; 
 }
+
+button {
+  outline: none;
+}
 @font-face {
   font-family: "GothamBoldItalic";
   font-weight: normal;

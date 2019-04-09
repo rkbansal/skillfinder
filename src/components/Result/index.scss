@@ -206,9 +206,18 @@
 }
 
 @media screen and (max-width: 850px) {
-  .search-results {
-    float: left;
-    width: 100%;
-    margin: 0px;
+  .search-results-parent {
+    .search-results {
+      float: left;
+      width: 100%;
+      margin: 0px;
+      margin-left: 10%;
+      >.search-result-item{
+        >.info {
+          float: left;
+          width: 70vw;
+        }
+      }
+    }
   }
 }
