@@ -137,7 +137,8 @@
         width: 100%;
         >.logo_link {
           float: left;
-          width: 50%;
+          width: calc(50% - 10px);
+          margin-left: 10px;
         }
         >.left_right{
           float: left;

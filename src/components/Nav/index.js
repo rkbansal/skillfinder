@@ -34,7 +34,7 @@ export default function Nav(props) {
       <div className="left">
         <Link className="logo_link" to="/">SKILLFINDER</Link>
         <span className="left_right">
-          <a href="javascript:void(0);" class="bar_icon" onClick={toggleMenus}>
+          <a href="javascript:void(0);" className="bar_icon" onClick={toggleMenus}>
             <Icon type="bars" />
           </a>
         </span>
